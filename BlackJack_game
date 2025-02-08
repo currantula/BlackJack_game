@@ -42,7 +42,6 @@ def calculate_score(hand):
         aces_count -= 1
 
     return score
-
 def compare(player_score, dealer_score):
     if player_score == dealer_score:
         return "draw"
